@@ -1,0 +1,44 @@
+body{
+  background-color: #05102D;
+  color: #A5B9EA;
+
+  font-family: 'Montserrat', sans-serif;
+}
+h2,h3,h1{
+  font-family: 'Staatliches', cursive;
+}
+#wrapper{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+#header{
+  /* % used becasue wrapper defined size */
+  width: 100%;
+  height: 10%;
+}
+#sidebar{
+  width: 15%;
+  height: 90%;
+  float: left;
+}
+#main{
+  width: 85%;
+  height: 90%;
+  background-size: 100%;
+  float: right;
+}
+.image{
+  float: right;
+  width: 30%;
+  padding: 2%;
+}
+.image2{
+  float: left;
+  width: 30%;
+  padding: 2%;
+}
+a{
+  display: block;
+  color: #A5B9EA;
+}
